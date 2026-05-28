@@ -55,15 +55,7 @@ py pcos_app_gui.py
 
 ---
 
-## Prediction Result
 
-![Prediction](screenshots/prediction.png)
-
----
-
-## Medical Report Upload
-
-![Upload](screenshots/upload.png)
 
 ---
 
