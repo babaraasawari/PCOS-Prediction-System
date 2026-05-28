@@ -32,3 +32,57 @@ Install libraries:
 
 ```bash
 pip install -r requirements.txt
+
+```
+
+Run model training:
+
+```bash
+py train_hybrid_pcos_model.py
+```
+
+Run GUI application:
+
+```bash
+py pcos_app_gui.py
+```
+
+---
+
+## GUI Preview
+
+![GUI](screenshots/gui.png)
+
+---
+
+## Prediction Result
+
+![Prediction](screenshots/prediction.png)
+
+---
+
+## Medical Report Upload
+
+![Upload](screenshots/upload.png)
+
+---
+
+## Project Structure
+
+```text
+PCOS PROJECT/
+│
+├── artifacts/
+├── screenshots/
+├── pcos_app_gui.py
+├── train_hybrid_pcos_model.py
+├── PCOS_data.csv
+├── requirements.txt
+├── README.md
+```
+
+---
+
+## Author
+
+Aashu
