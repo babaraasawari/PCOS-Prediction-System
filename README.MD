@@ -1,104 +1,111 @@
 <div align="center">
 
-# 🩺 PCOS Prediction System
+<!-- Animated Header -->
 
-### Hybrid Machine Learning-Based PCOS Prediction with OCR-Powered Medical Report Analysis
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-ML-006400?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/OCR-Pytesseract-8A2BE2?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GUI-CustomTkinter-2575FC?style=for-the-badge"/>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Model-Random%20Forest%20%2B%20XGBoost-00C853?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Accuracy-~92%25-FF6B35?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Domain-Healthcare-A020F0?style=for-the-badge"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,25:6A11CB,55:2575FC,80:00C6FF,100:0D1117&height=220&section=header&text=PCOS%20Prediction%20System&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Hybrid%20Machine%20Learning%20%7C%20OCR%20%7C%20Healthcare%20AI&descAlignY=60&descSize=17&animation=fadeIn" width="100%"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&width=800&lines=Hybrid+Machine+Learning+%F0%9F%A4%96;Random+Forest+%2B+XGBoost;OCR-Powered+Medical+Report+Analysis+%F0%9F%93%84;Data-Driven+PCOS+Prediction+%F0%9F%93%8A" alt="Typing SVG"/>
+<!-- Typing Animation -->
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=8A2BE2&center=true&vCenter=true&width=800&lines=Random+Forest+%2B+XGBoost+%F0%9F%A4%96;OCR-Powered+Medical+Report+Analysis+%F0%9F%93%84;Data-Driven+PCOS+Prediction+%F0%9F%93%8A;Hybrid+Machine+Learning+System+%E2%9A%A1" alt="Typing Animation"/>
+
+<br><br>
+
+<!-- Project Badges -->
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Random%20Forest-228B22?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-006400?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OCR-Pytesseract-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CustomTkinter-2575FC?style=for-the-badge"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/Accuracy-~92%25-FF6B35?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Domain-Healthcare-A020F0?style=for-the-badge"/>
+<img src="https://img.shields.io/github/license/babaraasawari/PCOS-Prediction-System?style=for-the-badge&color=00C853" alt="License"/>
+<img src="https://img.shields.io/github/stars/babaraasawari/PCOS-Prediction-System?style=for-the-badge&color=FFD700" alt="Stars"/>
 
 </div>
 
 ---
 
-## 📌 Overview
+# 🩺 About the Project
 
-The **PCOS Prediction System** is a machine learning-based application designed to predict the likelihood of **Polycystic Ovary Syndrome (PCOS)** using patient-related data.
+**PCOS Prediction System** is a machine learning-based healthcare application designed to predict the likelihood of **Polycystic Ovary Syndrome (PCOS)** using patient-related clinical and lifestyle information.
 
-The system combines **Random Forest and XGBoost** through a hybrid machine learning approach and integrates **OCR-based medical report analysis** to extract relevant information from uploaded reports.
+The system implements a **hybrid machine learning approach using Random Forest and XGBoost** and additionally integrates **OCR-based medical report analysis** to extract relevant information from uploaded medical reports.
 
-The application provides a user-friendly graphical interface where users can enter patient parameters, upload medical reports, obtain a prediction probability, and visualize the prediction result.
+The application provides an interactive graphical interface where users can enter patient parameters, process medical reports, obtain a prediction probability, and visualize the prediction result.
 
-> **Project Goal:** Develop an accessible, data-driven system that can assist with early risk assessment and demonstrate the application of machine learning and OCR in healthcare.
+> **Project Objective:** To demonstrate how machine learning, OCR, and data-driven analysis can be combined to build an accessible PCOS risk-prediction application.
 
 ---
 
-## ✨ Key Features
+# ✨ Key Features
+
+<div align="center">
 
 | Feature | Description |
-|---|---|
-| 🤖 **Hybrid ML Model** | Combines Random Forest and XGBoost |
-| 📄 **OCR Analysis** | Extracts information from uploaded medical reports |
-| 🔍 **Automatic Extraction** | Processes extracted report information for prediction |
-| 🖥️ **Graphical Interface** | User-friendly CustomTkinter-based application |
-| 📊 **Probability Prediction** | Displays the predicted PCOS probability |
-| 📈 **Visualization** | Presents prediction results through graphs |
-| 🧬 **Feature Engineering** | Uses relevant clinical and lifestyle parameters |
-| 📋 **Report-Based Input** | Supports medical report information as an input source |
+|:---|:---|
+| 🤖 **Hybrid ML Model** | Random Forest + XGBoost |
+| 📄 **OCR Report Analysis** | Extracts information from medical reports |
+| 🔍 **Automatic Parameter Extraction** | Processes information obtained from reports |
+| 🖥️ **Interactive GUI** | CustomTkinter-based application |
+| 📊 **Prediction Probability** | Displays probability associated with the prediction |
+| 📈 **Visualization** | Graphical representation of prediction results |
+| 🧬 **Feature Engineering** | Uses clinical and lifestyle parameters |
+| 📋 **Multiple Input Sources** | Supports manual and report-based inputs |
+
+</div>
 
 ---
 
 # 🧠 Machine Learning Approach
 
-The system uses a **hybrid ensemble approach** combining two machine learning algorithms:
+The project uses two machine learning algorithms:
 
 ### 🌲 Random Forest
 
-Random Forest combines multiple decision trees to improve classification performance and robustness.
+Random Forest is an ensemble learning algorithm that combines multiple decision trees to perform classification and improve robustness.
 
 ### ⚡ XGBoost
 
-XGBoost is a gradient boosting algorithm that builds sequential decision trees to improve predictive performance.
+XGBoost is a gradient boosting algorithm that builds decision trees sequentially to improve predictive performance.
 
-### 🔗 Hybrid Approach
+### 🔗 Hybrid Model
 
-The project combines the predictions of:
+The two models are combined to create a hybrid prediction system.
 
 ```text
-                ┌──────────────────┐
-                │   Patient Data   │
-                └────────┬─────────┘
-                         │
-                         ▼
-              ┌─────────────────────┐
-              │ Data Preprocessing  │
-              └──────────┬──────────┘
-                         │
-                         ▼
-              ┌─────────────────────┐
-              │ Feature Engineering│
-              └──────────┬──────────┘
-                         │
-              ┌──────────┴──────────┐
-              ▼                     ▼
-      ┌───────────────┐     ┌───────────────┐
-      │ Random Forest │     │    XGBoost    │
-      └───────┬───────┘     └───────┬───────┘
-              │                     │
-              └──────────┬──────────┘
-                         ▼
-                ┌─────────────────┐
-                │ Hybrid Model    │
-                │   Prediction    │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Probability +   │
-                │ Prediction      │
-                └─────────────────┘
+                    ┌─────────────────────┐
+                    │    Patient Data     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Data Preprocessing   │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Feature Engineering │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    ▼                     ▼
+           ┌────────────────┐    ┌────────────────┐
+           │ Random Forest  │    │    XGBoost     │
+           └───────┬────────┘    └───────┬────────┘
+                   │                     │
+                   └──────────┬──────────┘
+                              ▼
+                    ┌─────────────────────┐
+                    │   Hybrid Prediction │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Probability + Result│
+                    └─────────────────────┘
