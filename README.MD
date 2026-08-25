@@ -109,3 +109,37 @@ The two models are combined to create a hybrid prediction system.
                     ┌─────────────────────┐
                     │ Probability + Result│
                     └─────────────────────┘
+---
+
+## 📊 Results
+
+The hybrid Random Forest + XGBoost model achieved approximately **92% prediction accuracy** on the project dataset.
+
+### Key Outcomes
+
+- 🤖 Hybrid Random Forest + XGBoost prediction
+- 📈 Probability-based PCOS prediction
+- 📄 OCR-based medical report analysis
+- 🧬 Clinical and lifestyle feature analysis
+- 📊 Visual prediction results
+- 🖥️ Interactive CustomTkinter GUI
+
+---
+
+## 🔮 Future Scope
+
+- 🩺 Integration with larger and more diverse clinical datasets
+- 📱 Development of a mobile-friendly application
+- ☁️ Cloud-based deployment for remote accessibility
+- 🧠 Exploration of advanced deep learning models
+- 📄 Improved medical report and OCR processing
+- 📊 Continuous model optimization with additional patient data
+
+---
+
+## 👩‍💻 Author
+
+**Aasawari Babar**
+
+CSE (Data Science) Student  
+St. Vincent Pallotti College of Engineering and Technology, Nagpur
